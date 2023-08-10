@@ -26,3 +26,16 @@ def transpose(m: list) -> list:
                         row.append(m[j][i]);
                 n.append(row);
         return n;
+
+
+print(expanding([1,3,7,2,9]));
+print(expanding([1,3,7,2,-3]));
+print(expanding([1,3,7,10]));
+
+print(sumsquare([1,3,5]));
+print(sumsquare([2,4,6]));
+print(sumsquare([-1,-2,3,7]));
+
+print(transpose([[1,2,3],[4,5,6]]));
+print(transpose([[1],[2],[3]]));
+print(transpose([[3]]));
