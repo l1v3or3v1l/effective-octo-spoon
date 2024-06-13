@@ -1,7 +1,7 @@
 
-def N():
+def _N():
 	return int(input())
-def M():
+def _M():
 	return map(int, input().split())
-def L():
-	return list(M())
+def _L():
+	return list(_M())
