@@ -1,7 +1,7 @@
 
-def innum():
+def n():
 	return int(input())
-def inmany():
+def m():
 	return map(int, input().split())
-def inlist():
+def l():
 	return list(inmany())
