@@ -4,4 +4,4 @@ def N():
 def M():
 	return map(int, input().split())
 def L():
-	return list(inmany())
+	return list(M())
