@@ -1,3 +1,8 @@
+// Steps to run
+// npm install express request
+// node ip-ap.js
+// Visit http://localhost:3000/{ip}
+
 const express = require('express')
 const request = require('request')
 const app = express()
