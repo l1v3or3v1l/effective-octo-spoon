@@ -3,6 +3,7 @@ import sys
 import time
 import urllib.request
 
+URL = "https://releases.ubuntu.com/24.04/ubuntu-24.04.1-desktop-amd64.iso"
 
 def progress(count, block_size, total_size):
     global start_time
@@ -19,7 +20,7 @@ def progress(count, block_size, total_size):
 
 def save():
 	while True:
-		urllib.request.urlretrieve("https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso", os.devnull, progress)
+		urllib.request.urlretrieve(URL, os.devnull, progress)
 
 if __name__ == '__main__':
 	save()
