@@ -1,3 +1,7 @@
+# Steps to run
+# pip install requests
+# python newcrypto.py
+
 import requests
 
 
