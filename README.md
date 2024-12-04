@@ -9,3 +9,6 @@ ip-api.js    - gets ip details using ip-api's api                               
   
 newcrypto.py - gets new crypto names from CMC which are not IOU has Own Blockchain - add option to get crypto of not Own Blockchain as well  
   
+pass.py - password validator - also add password generator  
+
+  
