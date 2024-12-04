@@ -1,3 +1,7 @@
+# Steps to run
+# pip install requests bs4 wget
+# python tinder-pics.py
+
 import requests
 import re
 import json
@@ -30,3 +34,5 @@ for p in parr:
 	purl = p['processedFiles'][0]['url']
 	pr = requests.get(purl, allow_redirects=True)
 	open(f'{xx}/{purl.split("_")[-1]}', 'wb').write(pr.content)
+
+print(url+xx)
