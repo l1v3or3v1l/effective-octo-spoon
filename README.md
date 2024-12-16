@@ -17,4 +17,4 @@ tinder.py - dictionary attack through female.txt to find tinder users and scrape
 
 wista_dl.py - download wista embedded video - check if it works and also automatically get video id from url's source
 
-wordsplash.sh - takes a text repeats it a number of times and copies it to clipboard - seperate each text by new line
+wordsplash.sh - takes a text repeats it a number of times and copies it to clipboard - add pattern for text 
