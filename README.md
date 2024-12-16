@@ -16,3 +16,5 @@ tinder-pics.py - download tinder pictures of a user if given username exists - n
 tinder.py - dictionary attack through female.txt to find tinder users and scrape their images  
 
 wista_dl.py - download wista embedded video - check if it works and also automatically get video id from url's source
+
+wordsplash.sh - takes a text repeats it a number of times and copies it to clipboard - seperate each text by new line
