@@ -15,3 +15,4 @@ tinder-pics.py - download tinder pictures of a user if given username exists - n
 
 tinder.py - bruteforce through female.txt to find tinder users and scrape their images  
 
+wista_dl.py - download wista embedded video - check if it works and also automatically get video id from url's source
