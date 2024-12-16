@@ -3,4 +3,4 @@
 # To run
 # bash wordsplash.sh <msg> <count>
 
-for i in $(seq 1 $2); do echo -n "$1 "; done | termux-clipboard-set
+for i in $(seq 1 $2); do echo "$1"; done | termux-clipboard-set
