@@ -12,3 +12,6 @@ newcrypto.py - gets new crypto names from CMC which are not IOU has Own Blockcha
 pass.py - password validator - also add password generator  
 
 tinder-pics.py - download tinder pictures of a user if given username exists - nothing to improve
+
+tinder.py - bruteforce through female.txt to find tinder users and scrape their images  
+
