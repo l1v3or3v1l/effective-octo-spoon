@@ -3,14 +3,19 @@
 # python tinder-pics.py
 
 import requests
-import re                                            import json                                          from bs4 import BeautifulSoup                        from sys import exit
-import wget                                          import os
+import re                                            
+import json                                          
+from bs4 import BeautifulSoup                        
+from sys import exit
+import wget                                          
+import os
 
 url = 'https://tinder.com/@'
 
 xx = input('username : ')
 
-r = requests.get(url+xx)                             if f'/@{xx}' not in r.text:
+r = requests.get(url+xx)                             
+if f'/@{xx}' not in r.text:
         exit()
 
 soup = BeautifulSoup(r.text, 'html.parser')
