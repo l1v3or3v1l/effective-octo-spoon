@@ -1,7 +1,7 @@
 # effective-octo-spoon
 name - purpose - improvement
 
-bbw.py - bandwidth waster - seed torrents instead of downloading files 
+bbw.py - big bandwidth waster - seed torrents instead of downloading files 
     
 cdejector.c - ejects cd drive reader on linux - implement for windows as well  
     
@@ -10,6 +10,8 @@ ip-api.js - gets ip details using ip-api's api - visit / to get your ip's detail
 newcrypto.py - gets new crypto names from CMC which are not IOU has Own Blockchain - add option to get crypto of not Own Blockchain as well  
   
 pass.py - password validator - also add password generator  
+
+power_notify.py - notifies to connect AC adapter just after startup so that my potato laptop won't shut down due to it's bad battery health - nothing to improve  
 
 tinder-pics.py - download tinder pictures of a user if given username exists - nothing to improve
 
