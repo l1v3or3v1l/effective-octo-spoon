@@ -1,5 +1,5 @@
 # effective-octo-spoon
-| Name | Purpose | Improvement |
+| Name | Purpose | Improvement to be made |
 | :--- | :--- | :--- |
 | bbw.py | big bandwidth waster | seed torrents instead of downloading files |
 | cdejector.c | ejects cd drive reader on linux | implement for windows as well |
